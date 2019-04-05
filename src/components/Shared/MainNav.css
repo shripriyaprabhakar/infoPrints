@@ -1,0 +1,9 @@
+.navbar-top {
+  position: relative;
+  top: 10px;
+}
+
+.navbar-left {
+  position: relative;
+  left: 80px;
+}

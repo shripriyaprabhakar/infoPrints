@@ -1,0 +1,24 @@
+
+I have used Client-Side rendering because this is a relatively new approach to rendering websites, and it didn't really become popular until JavaScript libraries started incorporating it into their style of development. I have used React.js for front-end responsive design. 
+
+
+The browser will make a request to server and render the html on browser. If I have to click a link on the page to load more content, the browser will not make another request to the server. You are rendering items with the browser, so it will instead use JavaScript to load the new content.
+
+I used client-side because:
+*Rich site interactions
+*Fast website rendering after the initial load.
+*Great for web applications.
+*Robust selection of JavaScript libraries - I have used bootstrap for styling.
+
+
+
+State Management:
+
+I have used only react and I didnot use the MVC of react- that is flux/redux. Due to the time constraint I continued with react. I am sure I could have avoided half of the code written with Redux. This is because with Redux, the state of your application is kept in a store and each component can access any state that it needs from this store.
+
+In this app where data is shared among components, it got confusing to actually know where a state should live. Ideally, the data in a component should live in just one component. So sharing data among sibling components became difficult.
+So state management got messy as the app got complex. 
+
+That said, I have put a boiler plate of Redux here. 
+I would definetly love to refactor this app and use MV to manage my state as I had previously in one of my apps (Weatherly-check link on linkedIn)
+
