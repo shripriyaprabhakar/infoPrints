@@ -33,7 +33,9 @@ class Home extends Component {
       self.setState({
         articles: response
       });
+      if(err) {
       console.log(err);
+      }
     });
   }
   //console.log(results.items[0].title);
