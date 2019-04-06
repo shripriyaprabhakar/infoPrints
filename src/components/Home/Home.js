@@ -21,15 +21,10 @@ class Home extends Component {
     };
 
     arxiv.search(search_query, async function(err, results) {
-      console.log(
-        "Found in Home" +
-          results.items.length +
-          " results out of " +
-          results.total
-      );
+   
 
       var response = await results.items.slice(0, 25);
-      console.log(response);
+      
       self.setState({
         articles: response
       });
